@@ -1,0 +1,56 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.logo img {
+    background-color: black;
+}
+
+.logo h2 {
+    padding-left: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.navegacao ul li {
+    padding: 20px;
+}
+
+.item_usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_usuario .cabeca {
+    width: 10px;
+}
+
+.icone_busca {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+   align-items: flex-end;
+}
+
+.lupa{
+    padding-right: 5px;
+    width: 20px;
+}
+
+
