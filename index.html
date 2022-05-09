@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/src/CSS/global.css">
     <link rel="stylesheet" href="assets/src/CSS/style.css">
     <link rel="stylesheet" href="assets/src/CSS/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>HomeYou Imobiliária</title>
 </head>
 
@@ -70,7 +71,7 @@
 
         <section class="area_design_minimalista">
             <div class="imagem_ambiente">
-                <img src="assets/src/images/img-imovel2.png" alt=" imagem ambiente">
+                <img src="assets/src/images/img-imovel2.png" alt=" imagem ambiente" data-aos="fade-right">
 
                 <div class="quadro_fundo">
 
@@ -99,12 +100,12 @@
                     trabalhamos com designs diferentes e inovadores.</p>
             </div>
 
-            <div class="imagens_galeria">
-                <img src="assets/src/images/imagem-galeria1.png" alt="Imagem ambiente">
+            <div class="imagens_galeria" >
+                <img src="assets/src/images/imagem-galeria1.png" alt="Imagem ambiente" data-aos="fade-right">
 
-                <img src="assets/src/images/imagem-galeria2.png" alt="Imagem ambiente">
+                <img src="assets/src/images/imagem-galeria2.png" alt="Imagem ambiente" data-aos="fade-up">
 
-                <img src="assets/src/images/imagem-galeria3.png" alt="Imagem ambiente">
+                <img src="assets/src/images/imagem-galeria3.png" alt="Imagem ambiente" data-aos="fade-left">
             </div>
 
         </section>
@@ -150,6 +151,16 @@
             </ul>
         </div>
     </footer>
+
+    <script src="index.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
+
 </body>
 
 </html>
