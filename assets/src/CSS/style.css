@@ -152,3 +152,33 @@
     padding-top: 18px;
     text-decoration: underline;
 }
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+}
+
+.galeria .informativo{
+    text-align: center;
+    margin: 24px;
+    padding-top: 24px;
+}
+
+.galeria .informativo p{
+    padding-top: 24px;
+        width: 700px;
+        line-height: 28px;
+}
+
+.imagens_galeria img{
+    width: 297px;
+    height: 412.5px;
+    padding: 8px;
+}
+
+.imagens_galeria{
+    margin-bottom: 20px;
+}
