@@ -3,7 +3,6 @@
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    border-bottom: 1px solid black;
 }
 
 .logo img {
@@ -44,7 +43,6 @@
 .icone_busca {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
    align-items: flex-end;
 }
 
@@ -52,5 +50,45 @@
     padding-right: 5px;
     width: 20px;
 }
+
+.apresentacao{
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto_principal h1{
+    width: 260px;
+    margin-bottom: 12px;
+}
+
+.texto_principal p{
+    width: 350px;
+    margin-bottom: 12px;
+}
+
+.mais_informacoes a{
+    text-decoration: underline;
+}
+
+.mais_informacoes .botao{
+    background-color: #272727;
+    color: #ffffff;
+    width: 168px;
+    height: 34.5px;
+    margin-right: 30px;
+}
+
+.imagem_principal img{
+    width: 495px;
+    height: 637.5px;
+}
+
+.botao, .mais_informacoes a , .logo , .navegacao ul li{
+    cursor: pointer;
+}
+
+
 
 
