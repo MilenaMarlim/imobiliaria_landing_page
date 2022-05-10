@@ -79,17 +79,26 @@
 
 .mais_informacoes .botao {
     background-color: #272727;
-    width: 169px;
-    height: 34.5px;
+    padding: 10px 20px 10px 20px;
     margin-right: 30px;
     font-size: 16px;
-    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    transition: ease-in-out 0.7s;
 }
 
-.botao a {
+.mais_informacoes .botao a {
     color: #ffffff;
     text-decoration: none;
+    transition: ease-in-out 0.7s;
+}
+
+.mais_informacoes .botao a:hover {
+    border-bottom: 1px solid #272727;
+    color: #F9F9F9;
+}
+
+.mais_informacoes .botao:hover{
+    background-color: #272727;
 }
 
 .imagem_principal img {
@@ -205,18 +214,31 @@
     padding-bottom: 27px;
 }
 
-.orcamento .orcamento_botao {
-    text-decoration: none;
-    width: 168px;
-    height: 34px;
+.orcamento .botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #272727;
+    transition: ease-in-out 0.3s;
+    padding: 10px 20px 10px 20px;
 }
 
-.orcamento_botao a {
+.orcamento .botao:hover {
+    background-color: #F9F9F9;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.orcamento .botao a {
     color: #272727;
     font-size: 18px;
-    font-weight: 500;
+    transition: ease-in-out 0.3s;
 }
+
+.orcamento .botao a:hover {
+    border-bottom: 1px solid #272727;
+}
+
 
 .rodape {
     display: flex;
@@ -250,6 +272,6 @@
     margin-right: 200px;
 }
 
-.logo img{
+.logo img {
     padding: 5px;
 }
