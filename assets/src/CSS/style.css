@@ -206,8 +206,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
-    margin-bottom: 58px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .orcamento .informativo {
@@ -215,7 +215,7 @@
 }
 
 .orcamento .informativo h2 {
-    padding: 58.5px 0px 12px 0px;
+    padding: 0px 0px 12px 0px;
 }
 
 .orcamento .informativo p {
@@ -247,7 +247,6 @@
 .orcamento .botao a:hover {
     border-bottom: 1px solid #272727;
 }
-
 
 .rodape {
     display: flex;
