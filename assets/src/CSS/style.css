@@ -153,7 +153,7 @@
     text-decoration: underline;
 }
 
-.galeria{
+.galeria {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,24 +161,95 @@
     background-color: #F9F9F9;
 }
 
-.galeria .informativo{
+.galeria .informativo {
     text-align: center;
     margin: 24px;
     padding-top: 24px;
 }
 
-.galeria .informativo p{
+.galeria .informativo p {
     padding-top: 24px;
-        width: 700px;
-        line-height: 28px;
+    width: 700px;
+    line-height: 28px;
 }
 
-.imagens_galeria img{
+.imagens_galeria img {
     width: 297px;
     height: 412.5px;
     padding: 8px;
 }
 
-.imagens_galeria{
+.imagens_galeria {
     margin-bottom: 20px;
+}
+
+.orcamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 67px;
+}
+
+.orcamento .informativo {
+    text-align: center;
+}
+
+.orcamento .informativo h2 {
+    padding-bottom: 12px;
+}
+
+.orcamento .informativo p {
+    color: #797979;
+    padding-bottom: 27px;
+}
+
+.orcamento .orcamento_botao {
+    text-decoration: none;
+    width: 168px;
+    height: 34px;
+    border: 1px solid #272727;
+}
+
+.orcamento_botao a {
+    color: #272727;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9F9F9;
+    padding-bottom: 67px;
+}
+
+.rodape .coluna_produtos ul li, .rodape .coluna_informacoes ul li, .rodape .coluna_redes_sociais ul li {
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.rodape ul li:hover {
+    color: #797979;
+}
+
+.rodape h3 {
+    padding-bottom: 12px;
+    padding-top: 67px;
+}
+
+.rodape .logo {
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape .coluna_redes_sociais {
+    margin-right: 200px;
+}
+
+.logo img{
+    padding: 5px;
 }
