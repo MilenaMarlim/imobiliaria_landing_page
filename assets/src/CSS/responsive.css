@@ -75,7 +75,7 @@
     }
 
     .area_apresentacao {
-        margin-left: 15%;
+        margin-left: 10%;
     }
 
     .texto_principal h1 {
@@ -90,6 +90,10 @@
 
     .imagens_galeria img {
         width: 85%;
+    }
+    
+    .galeria .informativo p {
+        width: 70%;
     }
 
     .orcamento .botao {
