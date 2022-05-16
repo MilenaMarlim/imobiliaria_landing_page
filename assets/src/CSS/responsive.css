@@ -105,13 +105,16 @@
     }
 
     .area_design_minimalista {
-        height: 100%;
+        height: 250px;
         margin-top: 8%;
         margin-bottom: 8%;
         width: 100%;
     }
 
     .area_design_minimalista .informativo {
-        width: 80%;
+       position: absolute;
+       left: -18%;
+       top: 2%;
+       width: 95%;
     }
 }
