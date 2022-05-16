@@ -88,22 +88,6 @@
         width: 80%;
     }
 
-    .imagens_galeria img {
-        width: 85%;
-    }
-    
-    .galeria .informativo p {
-        width: 70%;
-    }
-
-    .orcamento .botao {
-        width: 80%;
-    }
-
-    .rodape .logo {
-        display: none;
-    }
-
     .area_design_minimalista {
         height: 250px;
         margin-top: 8%;
@@ -117,4 +101,21 @@
        top: 2%;
        width: 95%;
     }
+
+    .imagens_galeria img {
+        width: 85%;
+    }
+    
+    .galeria .informativo p {
+        width: 93%;
+    }
+
+    .orcamento .botao {
+        width: 80%;
+    }
+
+    .rodape .logo {
+        display: none;
+    }
+
 }
