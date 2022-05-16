@@ -1,28 +1,113 @@
-@media(max-width:2560px){
-    .quadro_fundo{
+@media(max-width:2560px) {
+    .quadro_fundo {
         left: 20%;
     }
 
 }
 
-@media(max-width:1100px){
- .apresentação{
-     background-color: red;
- }
-
- .apresentacao img{
-     display: none;
- }
+@media(max-width:1440px) {
+    .quadro_fundo {
+        left: 10.5%;
+    }
 }
 
-/* @media(max-width:970px){
-  .apresentacao{
-      justify-content: center;
-      align-items: center;
-      margin: 30px;
-  }
-   
-    .apresentacao img{
-        margin-top: 10%;
+@media(max-width:1024px) {
+    .quadro_fundo {
+        left: 11%;
     }
-} */
+
+    .area_design_minimalista {
+        justify-content: space-between;
+    }
+
+    .area_design_minimalista .informativo {
+        width: 40%;
+    }
+
+    .area_design_minimalista .informativo .texto {
+        width: 95%;
+    }
+
+    .imagem_ambiente img {
+        left: 15%;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .apresentacao img, .imagem_ambiente img, .quadro_fundo {
+        display: none;
+    }
+
+    .area_design_minimalista {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .area_design_minimalista .informativo {
+        width: 60%;
+    }
+
+    .imagens_galeria {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .galeria .informativo p {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+}
+
+@media(max-width:425px) {
+
+    .cabecalho .navegacao {
+        display: none;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 300px;
+    }
+
+    .area_apresentacao {
+        margin-left: 15%;
+    }
+
+    .texto_principal h1 {
+        font-size: 24px;
+        width: 85%;
+    }
+
+    .texto_principal p {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .imagens_galeria img {
+        width: 85%;
+    }
+
+    .orcamento .botao {
+        width: 80%;
+    }
+
+    .rodape .logo {
+        display: none;
+    }
+
+    .area_design_minimalista {
+        height: 100%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+        width: 100%;
+    }
+
+    .area_design_minimalista .informativo {
+        width: 80%;
+    }
+}
