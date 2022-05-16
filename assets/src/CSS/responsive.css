@@ -1,0 +1,28 @@
+@media(max-width:2560px){
+    .quadro_fundo{
+        left: 20%;
+    }
+
+}
+
+@media(max-width:1100px){
+ .apresentação{
+     background-color: red;
+ }
+
+ .apresentacao img{
+     display: none;
+ }
+}
+
+/* @media(max-width:970px){
+  .apresentacao{
+      justify-content: center;
+      align-items: center;
+      margin: 30px;
+  }
+   
+    .apresentacao img{
+        margin-top: 10%;
+    }
+} */
