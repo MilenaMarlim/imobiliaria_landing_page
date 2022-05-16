@@ -11,6 +11,7 @@ O desafio aqui era construir um projeto seguindo um template Figma desenhado pel
   https://bit.ly/3MZcKCV
 
 🚀  Quer ver como o meu projeto ficou? Clique:
+  https://milenamarlim.github.io/imobiliaria_landing_page/
   
 Em construção..
 </p>
