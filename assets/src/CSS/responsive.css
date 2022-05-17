@@ -75,13 +75,23 @@
     #hamburguer {
         display: block;
         border-top: 2px solid;
-        width: 20px;
+        width: 28px;
     }
 
-    #hamburguer::after , #hamburguer::before  {
+    #hamburguer::after {
         content: '';
         display: block;
-        width: 20px;
+        width: 14px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;  
+        position: relative;
+    }
+        
+        #hamburguer::before  {
+        content: '';
+        display: block;
+        width: 28px;
         height: 2px;
         background: currentColor;
         margin-top: 5px;  
@@ -98,6 +108,7 @@
 
     .navegacao.active #hamburguer::after{
         transform: rotate(-135deg);
+        width: 28px;
         top: -7px;
         transition: 0.8s ease-in-out;
     }
