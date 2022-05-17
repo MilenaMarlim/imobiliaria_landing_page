@@ -13,13 +13,14 @@ O desafio aqui era construir um projeto seguindo um template Figma desenhado pel
 🚀  Quer ver como o meu projeto ficou? Clique:
   https://milenamarlim.github.io/imobiliaria_landing_page/
   
-Em construção..
 </p>
 
 <p align="left">
   🦄 Maiores Desafios: 
-  <strong>
-    Em construção...
+  <strong> </br>
+    Menu Hamburguer </br>
+    Design Responsivo </br>
+    Efeitos de animação fade </br>
   </strong>
 </p>
 
