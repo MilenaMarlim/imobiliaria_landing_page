@@ -54,10 +54,9 @@
         top: 95px;
         right: 0px;
         background: #e7e7e7;
-        height: 0px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         z-index: 1;
         transition: 0.6s;
@@ -76,9 +75,10 @@
     }
 
     .navegacao.active .menu {
-        height: calc(100vh - 95px);
+        height: 90%;
         visibility: visible;
         overflow-y: auto;
+        border-radius: 20px;
     }
 
     #hamburguer {
@@ -143,9 +143,14 @@
     .apresentacao img, .imagem_ambiente img, .quadro_fundo {
         display: none;
     }
+    .area_design_minimalista {
+        height: 300px
+    }
 
     .area_design_minimalista .informativo {
         width: 70%;
+        margin-right: 10%;
+
     }
 
     .imagens_galeria {
