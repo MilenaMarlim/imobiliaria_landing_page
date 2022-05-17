@@ -9,6 +9,7 @@
         content="A HomeYou é uma imobiliária que irá encontrar imóveis bem decorados com design minimalista para você!">
     <link rel="stylesheet" href="assets/src/CSS/reset.css">
     <link rel="stylesheet" href="assets/src/CSS/global.css">
+    <script src="https://kit.fontawesome.com/0ec0965e20.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/src/CSS/style.css">
     <link rel="stylesheet" href="assets/src/CSS/responsive.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -22,10 +23,14 @@
             <img src="assets/src/images/Icon.png" alt="logo da HomeYou">
             <h2>HOMEYOU</h2>
         </div>
-        <nav class="navegacao">
-            <ul>
+        <nav class="navegacao" id="nav">
+            <button class="btn_mobile" id="btn_mobile">
+
+                <span id="hamburguer"></span>
+            </button>
+            <ul class="menu">
                 <li>
-                    <a href="#design_minimalista">Inicio</a>
+                    <a href="#design_minimalista">Início</a>
                 </li>
 
                 <li>
@@ -44,8 +49,9 @@
                     <img src="assets/src/images/heart_vector.png" alt="ícone de favoritos_coração">
                 </li>
                 <li class="icone_busca">
-                    <img class="lupa" src="assets/src/images/search_vector1.png" alt="icone de busca">
-                    <img class="cabo_do_icone" src="assets/src/images/search_vector.png" alt="ícone de busca">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                   
                 </li>
             </ul>
         </nav>

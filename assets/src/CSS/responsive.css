@@ -2,7 +2,6 @@
     .quadro_fundo {
         left: 20%;
     }
-
 }
 
 @media(max-width:1440px) {
@@ -30,6 +29,77 @@
 
     .imagem_ambiente img {
         left: 15%;
+    }
+
+}
+
+/* Menu hamburguer */
+@media(max-width:816px) {
+
+    .cabecalho .menu {
+        position: absolute;
+        width: 100%;
+        top: 95px;
+        right: 0px;
+        background: #e7e7e7;
+        height: 0px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1000;
+        transition: 0.6s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    .cabecalho .menu li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn_mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+
+    .navegacao.active .menu {
+        height: calc(100vh - 95px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #hamburguer {
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburguer::after , #hamburguer::before  {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;  
+        position: relative;     
+    }
+
+    .navegacao.active #hamburguer{
+        border-top-color: transparent;
+    }
+
+    .navegacao.active #hamburguer::before{
+        transform: rotate(135deg);
+    }
+
+    .navegacao.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
+        transition: 0.8s ease-in-out;
     }
 
 }
@@ -65,10 +135,6 @@
 
 @media(max-width:425px) {
 
-    .cabecalho .navegacao {
-        display: none;
-    }
-
     .apresentacao {
         width: 100%;
         height: 300px;
@@ -96,16 +162,16 @@
     }
 
     .area_design_minimalista .informativo {
-       position: absolute;
-       left: -18%;
-       top: 2%;
-       width: 95%;
+        position: absolute;
+        left: -18%;
+        top: 2%;
+        width: 95%;
     }
 
     .imagens_galeria img {
         width: 85%;
     }
-    
+
     .galeria .informativo p {
         width: 93%;
     }

@@ -19,7 +19,7 @@
     align-items: center;
 }
 
-.navegacao{
+.navegacao {
     display: flex;
 }
 
@@ -34,8 +34,12 @@
     padding: 20px;
 }
 
-.navegacao ul li:hover{
+.navegacao ul li:hover {
     border-bottom: 1px solid #797979;
+}
+
+.btn_mobile {
+    display: none;
 }
 
 .item_usuario {
@@ -49,14 +53,8 @@
 }
 
 .icone_busca {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.lupa {
-    padding-right: 5px;
-    width: 20px;
+    font-size: 18px;
+    opacity: 75%;
 }
 
 .apresentacao {
@@ -87,7 +85,7 @@
     transition: ease-in-out 0.7s;
 }
 
-.mais_informacoes .frase:hover{
+.mais_informacoes .frase:hover {
     letter-spacing: 2px;
 }
 
@@ -106,7 +104,7 @@
     color: #F9F9F9;
 }
 
-.mais_informacoes .botao:hover{
+.mais_informacoes .botao:hover {
     background-color: #272727;
 }
 
