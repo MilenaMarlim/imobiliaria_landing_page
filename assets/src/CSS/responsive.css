@@ -39,7 +39,6 @@
     }
 }
 
-
 @media(max-width:856px) {
     .apresentacao .area_apresentacao{
         margin-left: 5%;
@@ -144,15 +143,8 @@
         margin-right: 0;
     }
 
-
     .apresentacao img, .imagem_ambiente img, .quadro_fundo {
         display: none;
-    }
-
-    .area_design_minimalista {
-        justify-content: center;
-        align-items: center;
-        height: 320px;
     }
 
     .area_design_minimalista .informativo {
@@ -199,10 +191,9 @@
     }
 
     .area_design_minimalista {
-        height: 250px;
         margin-top: 8%;
-        margin-bottom: 8%;
         width: 90%;
+        height: 300px;
     }
 
     .area_design_minimalista .informativo {
@@ -227,5 +218,13 @@
     .rodape .logo {
         display: none;
     }
+    .rodape .coluna_produtos{
+        margin-left: 5%;
+    }
 
+    .rodape{
+        padding: 0;
+    }
+
+   
 }
