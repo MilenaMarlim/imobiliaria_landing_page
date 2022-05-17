@@ -11,6 +11,7 @@
 }
 
 @media(max-width:1024px) {
+
     .quadro_fundo {
         left: 11%;
     }
@@ -29,6 +30,19 @@
 
     .imagem_ambiente img {
         left: 15%;
+    }
+}
+
+@media(max-width:984px) {
+    .imagem_principal img{
+        height: 50%;
+    }
+}
+
+
+@media(max-width:856px) {
+    .apresentacao .area_apresentacao{
+        margin-left: 5%;
     }
 }
 
@@ -120,6 +134,16 @@
 }
 
 @media(max-width:768px) {
+    .cabecalho {
+        justify-content: space-between;
+        margin-left: 5%;
+    }
+
+    .apresentacao {
+        height: 300px;
+        margin-right: 0;
+    }
+
 
     .apresentacao img, .imagem_ambiente img, .quadro_fundo {
         display: none;
@@ -128,10 +152,11 @@
     .area_design_minimalista {
         justify-content: center;
         align-items: center;
+        height: 320px;
     }
 
     .area_design_minimalista .informativo {
-        width: 60%;
+        width: 70%;
     }
 
     .imagens_galeria {
@@ -149,10 +174,6 @@
 }
 
 @media(max-width:425px) {
-    .cabecalho {
-        justify-content: space-between;
-        margin-left: 5%;
-    }
 
     .logo h2 {
         padding-left: 10px;
@@ -160,11 +181,6 @@
 
     .cabecalho h2 {
         font-size: 16px;
-    }
-
-    .apresentacao {
-        height: 300px;
-        margin-right: 0;
     }
 
     .area_apresentacao {
