@@ -30,7 +30,6 @@
     .imagem_ambiente img {
         left: 15%;
     }
-
 }
 
 /* Menu hamburguer */
@@ -89,7 +88,7 @@
         left: 50%;
     }
         
-        #hamburguer::before  {
+    #hamburguer::before  {
         content: '';
         display: block;
         width: 28px;
@@ -152,12 +151,14 @@
 @media(max-width:425px) {
 
     .apresentacao {
-        width: 100%;
+        /* width: 90%; */
         height: 300px;
+        margin-right: 0;
     }
 
     .area_apresentacao {
-        margin-left: 10%;
+        margin-left: 5%;
+        margin-right: 0;
     }
 
     .texto_principal h1 {
@@ -174,7 +175,7 @@
         height: 250px;
         margin-top: 8%;
         margin-bottom: 8%;
-        width: 100%;
+        width: 90%;
     }
 
     .area_design_minimalista .informativo {
