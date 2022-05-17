@@ -89,19 +89,20 @@
     letter-spacing: 2px;
 }
 
-.mais_informacoes .botao {
+.area_apresentacao .mais_informacoes .botao {
     background-color: #272727;
     padding: 10px 20px 10px 20px;
     margin-right: 30px;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    transition: ease-in-out 0.7s;
+    transition: 0.8s;
 }
 
-.mais_informacoes .botao:hover {
-    border-bottom: 1px solid #F9F9F9;
-    color: #F9F9F9;
+.area_apresentacao .mais_informacoes .botao:hover {
+     background-color: transparent;
+     border: 1px solid #797979;
+     color: #272727;
 }
 
 .mais_informacoes .botao:hover {
