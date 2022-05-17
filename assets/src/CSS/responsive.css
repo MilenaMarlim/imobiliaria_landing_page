@@ -83,31 +83,31 @@
         width: 14px;
         height: 2px;
         background: currentColor;
-        margin-top: 5px;  
+        margin-top: 5px;
         position: relative;
         left: 50%;
     }
-        
-    #hamburguer::before  {
+
+    #hamburguer::before {
         content: '';
         display: block;
         width: 28px;
         height: 2px;
         background: currentColor;
-        margin-top: 5px;  
-        position: relative;     
+        margin-top: 5px;
+        position: relative;
     }
 
-    .navegacao.active #hamburguer{
+    .navegacao.active #hamburguer {
         border-top-color: transparent;
         position: relative;
     }
 
-    .navegacao.active #hamburguer::before{
+    .navegacao.active #hamburguer::before {
         transform: rotate(135deg);
     }
 
-    .navegacao.active #hamburguer::after{
+    .navegacao.active #hamburguer::after {
         transform: rotate(-135deg);
         width: 28px;
         top: -7px;
@@ -149,9 +149,20 @@
 }
 
 @media(max-width:425px) {
+    .cabecalho {
+        justify-content: space-between;
+        margin-left: 5%;
+    }
+
+    .logo h2 {
+        padding-left: 10px;
+    }
+
+    .cabecalho h2 {
+        font-size: 16px;
+    }
 
     .apresentacao {
-        /* width: 90%; */
         height: 300px;
         margin-right: 0;
     }
@@ -168,7 +179,7 @@
 
     .texto_principal p {
         font-size: 14px;
-        width: 80%;
+        width: 70%;
     }
 
     .area_design_minimalista {
@@ -180,7 +191,7 @@
 
     .area_design_minimalista .informativo {
         position: absolute;
-        left: -18%;
+        left: -15%;
         top: 2%;
         width: 95%;
     }
