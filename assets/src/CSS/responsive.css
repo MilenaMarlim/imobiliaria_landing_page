@@ -34,13 +34,13 @@
 }
 
 @media(max-width:984px) {
-    .imagem_principal img{
+    .imagem_principal img {
         height: 50%;
     }
 }
 
 @media(max-width:856px) {
-    .apresentacao .area_apresentacao{
+    .apresentacao .area_apresentacao {
         margin-left: 5%;
     }
 }
@@ -58,8 +58,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        z-index: 1;
-        transition: 0.6s;
+        z-index: 1000;
+        transition: 0.3s;
         visibility: hidden;
         overflow-y: hidden;
     }
@@ -75,7 +75,7 @@
     }
 
     .navegacao.active .menu {
-        height: 90%;
+        height: calc(100vh- 95px);
         visibility: visible;
         overflow-y: auto;
         border-radius: 20px;
@@ -143,14 +143,10 @@
     .apresentacao img, .imagem_ambiente img, .quadro_fundo {
         display: none;
     }
-    .area_design_minimalista {
-        height: 300px
-    }
 
     .area_design_minimalista .informativo {
         width: 70%;
         margin-right: 10%;
-
     }
 
     .imagens_galeria {
@@ -220,13 +216,14 @@
     .rodape .logo {
         display: none;
     }
-    .rodape .coluna_produtos{
+
+    .rodape .coluna_produtos {
         margin-left: 5%;
     }
 
-    .rodape{
+    .rodape {
         padding: 0;
     }
 
-   
+
 }
