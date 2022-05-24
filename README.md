@@ -1,7 +1,7 @@
 # imobiliaria_landing_page
 
 💜 Olá !
-O desafio aqui era construir um projeto seguindo um template Figma desenhado pelo Iuri Code.
+O desafio aqui foi construir um projeto em formato landing page seguindo um template Figma desenhado pelo Iuri Code.
 
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
