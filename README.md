@@ -7,11 +7,11 @@ O desafio aqui era construir um projeto seguindo um template Figma desenhado pel
 
 <p align="left"> 
   
-🚀  O template figma que eu segui:
-  https://bit.ly/3MZcKCV
-
-🚀  Quer ver como o meu projeto ficou? Clique:
+ 🚀  Quer ver como o meu projeto ficou? Clique:
   https://milenamarlim.github.io/imobiliaria_landing_page/
+  
+🚀  O template figma que eu segui:</br>
+  https://bit.ly/3MZcKCV
   
 </p>
 
