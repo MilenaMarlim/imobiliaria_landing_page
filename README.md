@@ -19,6 +19,7 @@ O desafio aqui era construir um projeto seguindo um template Figma desenhado pel
   🦄 Maiores Desafios: 
   <strong> </br>
     Menu Hamburguer </br>
+    Flexbox </br>
     Design Responsivo </br>
     Efeitos de animação fade </br>
   </strong>
