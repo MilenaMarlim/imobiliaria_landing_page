@@ -43,6 +43,10 @@
     .apresentacao .area_apresentacao {
         margin-left: 5%;
     }
+
+    .area_design_minimalista .imagem_ambiente img {
+        left: 7%;
+    }
 }
 
 /* Menu hamburguer */
@@ -129,17 +133,7 @@
 
 }
 
-@media(max-width:768px) {
-    .cabecalho {
-        justify-content: space-between;
-        margin-left: 5%;
-    }
-
-    .apresentacao {
-        height: 300px;
-        margin-right: 0;
-    }
-
+@media(max-width:792px) {
     .apresentacao img, .imagem_ambiente img, .quadro_fundo {
         display: none;
     }
@@ -148,6 +142,25 @@
         width: 70%;
         margin-right: 10%;
     }
+
+    .area_design_minimalista{
+        height: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .cabecalho {
+        justify-content: space-between;
+        margin-left: 5%;
+    }
+}
+
+@media(max-width:768px) {
+
+    /* .apresentacao {
+        height: 500px;
+        margin-right: 0;
+    } */
 
     .imagens_galeria {
         display: flex;
@@ -175,7 +188,8 @@
 
     .area_apresentacao {
         margin-left: 5%;
-        margin-right: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     .texto_principal h1 {
