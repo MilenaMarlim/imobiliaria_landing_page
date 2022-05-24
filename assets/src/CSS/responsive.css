@@ -39,6 +39,12 @@
     }
 }
 
+@media(max-width:874px) {
+    .imagens_galeria{
+        text-align: center;
+    }
+}
+
 @media(max-width:856px) {
     .apresentacao .area_apresentacao {
         margin-left: 5%;
@@ -156,11 +162,6 @@
 }
 
 @media(max-width:768px) {
-
-    /* .apresentacao {
-        height: 500px;
-        margin-right: 0;
-    } */
 
     .imagens_galeria {
         display: flex;
